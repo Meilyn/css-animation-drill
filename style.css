@@ -1,0 +1,26 @@
+#stage {
+	background-color: Gainsboro;
+	width: 600px;
+	height: 600px;
+	border: 1px dashed gray;
+	padding: 5px 5px;
+	display: flex;
+	align-content: center;
+}
+
+#hero {
+	border: 1px dashed red;
+	background-color: pink;
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 17px; 
+	left: 15px;
+	animation: challenge 5s infinite;
+
+}
+
+@keyframes challenge {
+	 0% { left: 15; right: 15;}
+    100% { left: 530px; top: 15;}  
+}
