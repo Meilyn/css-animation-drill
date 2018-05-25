@@ -1,17 +1,14 @@
 #stage {
 	background-color: Gainsboro;
-	background-image: url(images/css_animation_exercise_4.png);
 	width: 600px;
 	height: 600px;
 	border: 1px dashed gray;
 	padding: 5px 5px;
 	display: flex;
 	align-content: center;
-	
 }
 
 #hero {
-	margin: auto;
 	border: 1px dashed red;
 	background-color: pink;
 	width: 80px;
@@ -19,14 +16,11 @@
 	position: absolute;
 	top: 17px; 
 	left: 15px;
-	animation: challenge 5s ;
+	animation: challenge 5s infinite;
 
 }
 
 @keyframes challenge {
-	 0% { left: 15px; top: 17px;}
-	 25% {left: 500px; top: 17px;}
-	 45% {left: 500px; top: 250px; transform: rotate(0deg);}
-	 60% {top: 250px; left: 100px; transform: rotate(45deg);}
-
+	 0% { left: 15; right: 15;}
+    100% { left: 530px; top: 15;}  
 }
