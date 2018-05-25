@@ -1,1 +1,1 @@
-# css-animation-drill
+# CSS Animation Drill
